@@ -1,0 +1,35 @@
+{
+  "name": "discord-downloader",
+  "version": "0.0.0",
+  "description": "Automatically download files uploaded to discord",
+  "main": "lib/index.js",
+  "bin": {
+    "discord-downloader": "bin/discord-downloader"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phaux/discord-downloader"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "download"
+  ],
+  "author": "phaux <phaux4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phaux/discord-downloader/issues"
+  },
+  "homepage": "https://github.com/phaux/discord-downloader",
+  "dependencies": {
+    "co": "^4.6.0",
+    "discord.js": "^6.1.0",
+    "mkdirp": "^0.5.1",
+    "pify": "^2.3.0",
+    "request": "^2.69.0",
+    "yargs": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  }
+}

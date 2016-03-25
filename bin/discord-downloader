@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+'use strict'
+
+const DDL = require('../')
+const argv =
+
+require('yargs')
+
+.usage("Usage: $0 LOGIN PASSWORD")
+
+.help('h')
+.alias('h', 'help')
+
+.strict()
+
+.argv
+
+if (!argv._[0] || !argv._[1]) {
+  console.error("Login and password are required")
+  process.exit(1)
+}
+
+new DDL({
+  login:  `${argv._[0]}`,
+  passwd: `${argv._[1]}`,
+})
