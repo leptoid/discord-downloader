@@ -1,5 +1,7 @@
 # Discord Downloader
 
+**Notice:** This doesn't work anymore. It used the old Discord API which is now unsupported.
+
 Automatically download files uploaded to Discord.
 
 Usage:
